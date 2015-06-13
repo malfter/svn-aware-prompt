@@ -3,7 +3,7 @@
 ## Overview
 
 If you `cd` to a SVN working directory, you will see the current SVN relative URL
-name displayed in your terminal prompt (based on the trunk/branches/tag pattern [svn common patterns]). When you're not in a SVN working
+name displayed in your terminal prompt (based on the [svn common patterns]). When you're not in a SVN working
 directory, your prompt works like normal.
 
 [svn common patterns]: http://svnbook.red-bean.com/en/1.8/svn.branchmerge.commonpatterns.html
