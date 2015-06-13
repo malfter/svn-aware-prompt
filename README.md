@@ -3,10 +3,10 @@
 ## Overview
 
 If you `cd` to a SVN working directory, you will see the current SVN relative URL
-name displayed in your terminal prompt (based on the trunk/branches/tag pattern [1]). When you're not in a SVN working
+name displayed in your terminal prompt (based on the trunk/branches/tag pattern [svn common patterns]). When you're not in a SVN working
 directory, your prompt works like normal.
 
-[1]: http://svnbook.red-bean.com/en/1.8/svn.branchmerge.commonpatterns.html
+[svn common patterns]: http://svnbook.red-bean.com/en/1.8/svn.branchmerge.commonpatterns.html
 
 
 ## Installation
@@ -89,11 +89,11 @@ git pull
 
 ## Thank you
 
-This project based on
-
-[jimeh/git-aware-prompt]: https://github.com/jimeh/git-aware-prompt
+This project based on [jimeh/git-aware-prompt].
 
 Thank you for your work!
+
+[jimeh/git-aware-prompt]: https://github.com/jimeh/git-aware-prompt
 
 
 
