@@ -1,10 +1,8 @@
 find_svn_branch() {
-  local branch
   if $(svn info &>/dev/null); then
+    local branch
     if branch=$(svn info | awk '/Relative URL:/ {print $3}' | cut -d"/" -f 2-3); then
-      if [ $(echo $branch | grep ^trunk) ]; then
-        branch=$(echo $branch | cut -d"/" -f1)
-      fi
+      [ $(echo $branch | grep ^trunk) ] && branch="trunk"
       svn_branch="($branch)"
     else
       svn_branch=""
